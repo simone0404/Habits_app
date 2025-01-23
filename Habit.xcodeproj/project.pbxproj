@@ -7,13 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5AF3C52A8CF67100B1FE7E /* toolbarTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3C42A8CF67100B1FE7E /* toolbarTitle.swift */; };
+		9B5AF3C72A9A9B0400B1FE7E /* formatterValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3C62A9A9B0400B1FE7E /* formatterValues.swift */; };
+		9B5AF3CB2A9AA27500B1FE7E /* TimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3CA2A9AA27500B1FE7E /* TimeFunctions.swift */; };
+		9B5AF3CF2A9B29C000B1FE7E /* firstLineHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3CE2A9B29C000B1FE7E /* firstLineHabit.swift */; };
+		9B5AF3D12A9B2D6700B1FE7E /* ButtonAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3D02A9B2D6700B1FE7E /* ButtonAdder.swift */; };
+		9B5AF3D32A9B31DC00B1FE7E /* WaterSeasonMultiplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3D22A9B31DC00B1FE7E /* WaterSeasonMultiplier.swift */; };
+		9B5AF3D52A9C783600B1FE7E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3D42A9C783500B1FE7E /* TimerView.swift */; };
+		9B5AF3D72A9C8C7000B1FE7E /* ThinkIdeasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AF3D62A9C8C7000B1FE7E /* ThinkIdeasView.swift */; };
+		9B74CFEA2A86251100983582 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74CFE92A86251100983582 /* Keyboard.swift */; };
+		9B74CFEC2A86251900983582 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74CFEB2A86251900983582 /* ProgressBar.swift */; };
+		9B74CFF12A86290200983582 /* MoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74CFF02A86290200983582 /* MoneyView.swift */; };
+		9B74CFF32A862CD600983582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74CFF22A862CD600983582 /* ContentView.swift */; };
+		9B74CFF92A868E0700983582 /* GoalReacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74CFF82A868E0700983582 /* GoalReacher.swift */; };
+		9B74CFFB2A87508E00983582 /* MoneyModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74CFFA2A87508E00983582 /* MoneyModifierView.swift */; };
+		9B74D0062A87FAC800983582 /* DataModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0052A87FAC800983582 /* DataModifier.swift */; };
+		9B74D0082A8806EB00983582 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0072A8806EB00983582 /* ButtonModifier.swift */; };
+		9B74D00D2A8810A900983582 /* FruitVegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D00C2A8810A900983582 /* FruitVegView.swift */; };
+		9B74D0112A88133500983582 /* FruitVegModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0102A88133500983582 /* FruitVegModifierView.swift */; };
+		9B74D0132A88AA4400983582 /* captionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0122A88AA4400983582 /* captionView.swift */; };
+		9B74D0152A88B08B00983582 /* SuggestedFruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0142A88B08B00983582 /* SuggestedFruitView.swift */; };
+		9B74D0172A88DDD700983582 /* SuggestedVegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0162A88DDD700983582 /* SuggestedVegView.swift */; };
+		9B74D01A2A88ED6400983582 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0192A88ED6400983582 /* ActivityView.swift */; };
+		9B74D01C2A88F46900983582 /* ActivityModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D01B2A88F46900983582 /* ActivityModifierView.swift */; };
+		9B74D01E2A89386700983582 /* ActivityTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D01D2A89386700983582 /* ActivityTimerView.swift */; };
+		9B74D0202A894DBD00983582 /* SpacerDivisorSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D01F2A894DBD00983582 /* SpacerDivisorSpacerView.swift */; };
 		9BA37DC32A8623B200BCE938 /* HabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DC22A8623B200BCE938 /* HabitApp.swift */; };
-		9BA37DC52A8623B200BCE938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DC42A8623B200BCE938 /* ContentView.swift */; };
 		9BA37DC72A8623B300BCE938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA37DC62A8623B300BCE938 /* Assets.xcassets */; };
 		9BA37DCA2A8623B300BCE938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA37DC92A8623B300BCE938 /* Preview Assets.xcassets */; };
 		9BA37DD42A8623B300BCE938 /* HabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DD32A8623B300BCE938 /* HabitTests.swift */; };
 		9BA37DDE2A8623B300BCE938 /* HabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DDD2A8623B300BCE938 /* HabitUITests.swift */; };
 		9BA37DE02A8623B300BCE938 /* HabitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DDF2A8623B300BCE938 /* HabitUITestsLaunchTests.swift */; };
+		9BA37DFB2A86240400BCE938 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DF32A86240400BCE938 /* SettingsView.swift */; };
+		9BA37DFC2A86240400BCE938 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DF52A86240400BCE938 /* WaterView.swift */; };
+		9BA37DFD2A86240400BCE938 /* WaterModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DF62A86240400BCE938 /* WaterModifierView.swift */; };
+		9BA37E002A86243800BCE938 /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37DFF2A86243800BCE938 /* HabitsView.swift */; };
+		9BDB7FF02A8A01A100B2E8B4 /* YogaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB7FEF2A8A01A100B2E8B4 /* YogaView.swift */; };
+		9BDB7FF22A8A01AF00B2E8B4 /* YogaModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB7FF12A8A01AF00B2E8B4 /* YogaModifierView.swift */; };
+		9BDB7FF52A8A05DC00B2E8B4 /* ThinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB7FF42A8A05DC00B2E8B4 /* ThinkView.swift */; };
+		9BDB7FF72A8A05EF00B2E8B4 /* ThinkModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB7FF62A8A05EF00B2E8B4 /* ThinkModifierView.swift */; };
+		9BDB7FFA2A8A061A00B2E8B4 /* NatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB7FF92A8A061A00B2E8B4 /* NatureView.swift */; };
+		9BDB7FFC2A8A062500B2E8B4 /* NatureModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB7FFB2A8A062500B2E8B4 /* NatureModifierView.swift */; };
+		9BDB7FFF2A8A063700B2E8B4 /* WashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB7FFE2A8A063700B2E8B4 /* WashView.swift */; };
+		9BDB80012A8A064200B2E8B4 /* WashModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB80002A8A064200B2E8B4 /* WashModifierView.swift */; };
+		9BDB80042A8A065800B2E8B4 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB80032A8A065800B2E8B4 /* StudyView.swift */; };
+		9BDB80062A8A066300B2E8B4 /* StudyModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB80052A8A066300B2E8B4 /* StudyModifierView.swift */; };
+		9BDB800E2A8A06C800B2E8B4 /* JobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB800D2A8A06C800B2E8B4 /* JobView.swift */; };
+		9BDB80102A8A06D300B2E8B4 /* JobModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB800F2A8A06D300B2E8B4 /* JobModifierView.swift */; };
+		9BDB80132A8A6F0C00B2E8B4 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB80122A8A6F0C00B2E8B4 /* SleepView.swift */; };
+		9BDB80152A8A6F1800B2E8B4 /* SleepModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB80142A8A6F1800B2E8B4 /* SleepModifierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +76,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B5AF3C42A8CF67100B1FE7E /* toolbarTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolbarTitle.swift; sourceTree = "<group>"; };
+		9B5AF3C62A9A9B0400B1FE7E /* formatterValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formatterValues.swift; sourceTree = "<group>"; };
+		9B5AF3CA2A9AA27500B1FE7E /* TimeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFunctions.swift; sourceTree = "<group>"; };
+		9B5AF3CE2A9B29C000B1FE7E /* firstLineHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstLineHabit.swift; sourceTree = "<group>"; };
+		9B5AF3D02A9B2D6700B1FE7E /* ButtonAdder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAdder.swift; sourceTree = "<group>"; };
+		9B5AF3D22A9B31DC00B1FE7E /* WaterSeasonMultiplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSeasonMultiplier.swift; sourceTree = "<group>"; };
+		9B5AF3D42A9C783500B1FE7E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		9B5AF3D62A9C8C7000B1FE7E /* ThinkIdeasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkIdeasView.swift; sourceTree = "<group>"; };
+		9B74CFE92A86251100983582 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		9B74CFEB2A86251900983582 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		9B74CFF02A86290200983582 /* MoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyView.swift; sourceTree = "<group>"; };
+		9B74CFF22A862CD600983582 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B74CFF82A868E0700983582 /* GoalReacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalReacher.swift; sourceTree = "<group>"; };
+		9B74CFFA2A87508E00983582 /* MoneyModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyModifierView.swift; sourceTree = "<group>"; };
+		9B74D0052A87FAC800983582 /* DataModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModifier.swift; sourceTree = "<group>"; };
+		9B74D0072A8806EB00983582 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		9B74D00C2A8810A900983582 /* FruitVegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitVegView.swift; sourceTree = "<group>"; };
+		9B74D0102A88133500983582 /* FruitVegModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitVegModifierView.swift; sourceTree = "<group>"; };
+		9B74D0122A88AA4400983582 /* captionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = captionView.swift; sourceTree = "<group>"; };
+		9B74D0142A88B08B00983582 /* SuggestedFruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedFruitView.swift; sourceTree = "<group>"; };
+		9B74D0162A88DDD700983582 /* SuggestedVegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedVegView.swift; sourceTree = "<group>"; };
+		9B74D0192A88ED6400983582 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		9B74D01B2A88F46900983582 /* ActivityModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModifierView.swift; sourceTree = "<group>"; };
+		9B74D01D2A89386700983582 /* ActivityTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTimerView.swift; sourceTree = "<group>"; };
+		9B74D01F2A894DBD00983582 /* SpacerDivisorSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerDivisorSpacerView.swift; sourceTree = "<group>"; };
 		9BA37DBF2A8623B200BCE938 /* Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA37DC22A8623B200BCE938 /* HabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitApp.swift; sourceTree = "<group>"; };
-		9BA37DC42A8623B200BCE938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BA37DC62A8623B300BCE938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA37DC92A8623B300BCE938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BA37DCF2A8623B300BCE938 /* HabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +110,24 @@
 		9BA37DD92A8623B300BCE938 /* HabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA37DDD2A8623B300BCE938 /* HabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitUITests.swift; sourceTree = "<group>"; };
 		9BA37DDF2A8623B300BCE938 /* HabitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BA37DF32A86240400BCE938 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9BA37DF52A86240400BCE938 /* WaterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		9BA37DF62A86240400BCE938 /* WaterModifierView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterModifierView.swift; sourceTree = "<group>"; };
+		9BA37DFF2A86243800BCE938 /* HabitsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		9BDB7FEF2A8A01A100B2E8B4 /* YogaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaView.swift; sourceTree = "<group>"; };
+		9BDB7FF12A8A01AF00B2E8B4 /* YogaModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaModifierView.swift; sourceTree = "<group>"; };
+		9BDB7FF42A8A05DC00B2E8B4 /* ThinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkView.swift; sourceTree = "<group>"; };
+		9BDB7FF62A8A05EF00B2E8B4 /* ThinkModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkModifierView.swift; sourceTree = "<group>"; };
+		9BDB7FF92A8A061A00B2E8B4 /* NatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureView.swift; sourceTree = "<group>"; };
+		9BDB7FFB2A8A062500B2E8B4 /* NatureModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureModifierView.swift; sourceTree = "<group>"; };
+		9BDB7FFE2A8A063700B2E8B4 /* WashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashView.swift; sourceTree = "<group>"; };
+		9BDB80002A8A064200B2E8B4 /* WashModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashModifierView.swift; sourceTree = "<group>"; };
+		9BDB80032A8A065800B2E8B4 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		9BDB80052A8A066300B2E8B4 /* StudyModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyModifierView.swift; sourceTree = "<group>"; };
+		9BDB800D2A8A06C800B2E8B4 /* JobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobView.swift; sourceTree = "<group>"; };
+		9BDB800F2A8A06D300B2E8B4 /* JobModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModifierView.swift; sourceTree = "<group>"; };
+		9BDB80122A8A6F0C00B2E8B4 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		9BDB80142A8A6F1800B2E8B4 /* SleepModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepModifierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +155,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B5AF3C22A8CF33E00B1FE7E /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				9B74CFF02A86290200983582 /* MoneyView.swift */,
+				9B74CFFA2A87508E00983582 /* MoneyModifierView.swift */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		9B5AF3C32A8CF36500B1FE7E /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				9BA37DFF2A86243800BCE938 /* HabitsView.swift */,
+				9BDB7FF82A8A060800B2E8B4 /* Nature */,
+				9BDB80112A8A6EF300B2E8B4 /* Sleep */,
+				9BDB7FF32A8A05CB00B2E8B4 /* Think */,
+				9BA37DF42A86240400BCE938 /* Water */,
+				9BDB7FFD2A8A062900B2E8B4 /* Wash */,
+				9BDB80022A8A064900B2E8B4 /* Study */,
+				9B74D0092A88101900983582 /* FruitVeg */,
+				9BDB7FEE2A8A018100B2E8B4 /* Yoga */,
+				9B74D0182A88ED0300983582 /* Activity */,
+				9BDB80072A8A066800B2E8B4 /* Job */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		9B74CFE82A86250200983582 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D01F2A894DBD00983582 /* SpacerDivisorSpacerView.swift */,
+				9B5AF3D42A9C783500B1FE7E /* TimerView.swift */,
+				9B74D0072A8806EB00983582 /* ButtonModifier.swift */,
+				9B74D0052A87FAC800983582 /* DataModifier.swift */,
+				9B74CFE92A86251100983582 /* Keyboard.swift */,
+				9B74CFF82A868E0700983582 /* GoalReacher.swift */,
+				9B74D0122A88AA4400983582 /* captionView.swift */,
+				9B74CFEB2A86251900983582 /* ProgressBar.swift */,
+				9B5AF3C42A8CF67100B1FE7E /* toolbarTitle.swift */,
+				9B5AF3C62A9A9B0400B1FE7E /* formatterValues.swift */,
+				9B5AF3CA2A9AA27500B1FE7E /* TimeFunctions.swift */,
+				9B5AF3CE2A9B29C000B1FE7E /* firstLineHabit.swift */,
+				9B5AF3D02A9B2D6700B1FE7E /* ButtonAdder.swift */,
+				9B5AF3D22A9B31DC00B1FE7E /* WaterSeasonMultiplier.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B74D0092A88101900983582 /* FruitVeg */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D00C2A8810A900983582 /* FruitVegView.swift */,
+				9B74D0102A88133500983582 /* FruitVegModifierView.swift */,
+				9B74D0142A88B08B00983582 /* SuggestedFruitView.swift */,
+				9B74D0162A88DDD700983582 /* SuggestedVegView.swift */,
+			);
+			path = FruitVeg;
+			sourceTree = "<group>";
+		};
+		9B74D0182A88ED0300983582 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D0192A88ED6400983582 /* ActivityView.swift */,
+				9B74D01B2A88F46900983582 /* ActivityModifierView.swift */,
+				9B74D01D2A89386700983582 /* ActivityTimerView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
 		9BA37DB62A8623B200BCE938 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +248,8 @@
 			isa = PBXGroup;
 			children = (
 				9BA37DC22A8623B200BCE938 /* HabitApp.swift */,
-				9BA37DC42A8623B200BCE938 /* ContentView.swift */,
+				9B74CFF22A862CD600983582 /* ContentView.swift */,
+				9BA37DF12A86240400BCE938 /* View */,
 				9BA37DC62A8623B300BCE938 /* Assets.xcassets */,
 				9BA37DC82A8623B300BCE938 /* Preview Content */,
 			);
@@ -125,6 +279,98 @@
 				9BA37DDF2A8623B300BCE938 /* HabitUITestsLaunchTests.swift */,
 			);
 			path = HabitUITests;
+			sourceTree = "<group>";
+		};
+		9BA37DF12A86240400BCE938 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B74CFE82A86250200983582 /* Models */,
+				9B5AF3C32A8CF36500B1FE7E /* Habits */,
+				9B5AF3C22A8CF33E00B1FE7E /* Money */,
+				9BA37DF22A86240400BCE938 /* Options */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BA37DF22A86240400BCE938 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				9BA37DF32A86240400BCE938 /* SettingsView.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		9BA37DF42A86240400BCE938 /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				9BA37DF52A86240400BCE938 /* WaterView.swift */,
+				9BA37DF62A86240400BCE938 /* WaterModifierView.swift */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+		9BDB7FEE2A8A018100B2E8B4 /* Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB7FEF2A8A01A100B2E8B4 /* YogaView.swift */,
+				9BDB7FF12A8A01AF00B2E8B4 /* YogaModifierView.swift */,
+			);
+			path = Yoga;
+			sourceTree = "<group>";
+		};
+		9BDB7FF32A8A05CB00B2E8B4 /* Think */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB7FF42A8A05DC00B2E8B4 /* ThinkView.swift */,
+				9BDB7FF62A8A05EF00B2E8B4 /* ThinkModifierView.swift */,
+				9B5AF3D62A9C8C7000B1FE7E /* ThinkIdeasView.swift */,
+			);
+			path = Think;
+			sourceTree = "<group>";
+		};
+		9BDB7FF82A8A060800B2E8B4 /* Nature */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB7FF92A8A061A00B2E8B4 /* NatureView.swift */,
+				9BDB7FFB2A8A062500B2E8B4 /* NatureModifierView.swift */,
+			);
+			path = Nature;
+			sourceTree = "<group>";
+		};
+		9BDB7FFD2A8A062900B2E8B4 /* Wash */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB7FFE2A8A063700B2E8B4 /* WashView.swift */,
+				9BDB80002A8A064200B2E8B4 /* WashModifierView.swift */,
+			);
+			path = Wash;
+			sourceTree = "<group>";
+		};
+		9BDB80022A8A064900B2E8B4 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB80032A8A065800B2E8B4 /* StudyView.swift */,
+				9BDB80052A8A066300B2E8B4 /* StudyModifierView.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		9BDB80072A8A066800B2E8B4 /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB800D2A8A06C800B2E8B4 /* JobView.swift */,
+				9BDB800F2A8A06D300B2E8B4 /* JobModifierView.swift */,
+			);
+			path = Job;
+			sourceTree = "<group>";
+		};
+		9BDB80112A8A6EF300B2E8B4 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB80122A8A6F0C00B2E8B4 /* SleepView.swift */,
+				9BDB80142A8A6F1800B2E8B4 /* SleepModifierView.swift */,
+			);
+			path = Sleep;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +437,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					9BA37DBE2A8623B200BCE938 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -257,8 +503,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA37DC52A8623B200BCE938 /* ContentView.swift in Sources */,
+				9B74D0172A88DDD700983582 /* SuggestedVegView.swift in Sources */,
+				9BDB7FFC2A8A062500B2E8B4 /* NatureModifierView.swift in Sources */,
 				9BA37DC32A8623B200BCE938 /* HabitApp.swift in Sources */,
+				9BA37DFB2A86240400BCE938 /* SettingsView.swift in Sources */,
+				9B5AF3C52A8CF67100B1FE7E /* toolbarTitle.swift in Sources */,
+				9B5AF3CB2A9AA27500B1FE7E /* TimeFunctions.swift in Sources */,
+				9B74CFF32A862CD600983582 /* ContentView.swift in Sources */,
+				9BDB80042A8A065800B2E8B4 /* StudyView.swift in Sources */,
+				9B74D01E2A89386700983582 /* ActivityTimerView.swift in Sources */,
+				9B74D0132A88AA4400983582 /* captionView.swift in Sources */,
+				9B74CFF12A86290200983582 /* MoneyView.swift in Sources */,
+				9BDB80132A8A6F0C00B2E8B4 /* SleepView.swift in Sources */,
+				9BDB7FFF2A8A063700B2E8B4 /* WashView.swift in Sources */,
+				9B74D0152A88B08B00983582 /* SuggestedFruitView.swift in Sources */,
+				9BDB7FF72A8A05EF00B2E8B4 /* ThinkModifierView.swift in Sources */,
+				9B5AF3CF2A9B29C000B1FE7E /* firstLineHabit.swift in Sources */,
+				9BA37DFC2A86240400BCE938 /* WaterView.swift in Sources */,
+				9BDB80012A8A064200B2E8B4 /* WashModifierView.swift in Sources */,
+				9B74CFF92A868E0700983582 /* GoalReacher.swift in Sources */,
+				9B5AF3D32A9B31DC00B1FE7E /* WaterSeasonMultiplier.swift in Sources */,
+				9BDB80102A8A06D300B2E8B4 /* JobModifierView.swift in Sources */,
+				9BDB80062A8A066300B2E8B4 /* StudyModifierView.swift in Sources */,
+				9B74D01A2A88ED6400983582 /* ActivityView.swift in Sources */,
+				9BDB80152A8A6F1800B2E8B4 /* SleepModifierView.swift in Sources */,
+				9BA37E002A86243800BCE938 /* HabitsView.swift in Sources */,
+				9B74D00D2A8810A900983582 /* FruitVegView.swift in Sources */,
+				9B74D0202A894DBD00983582 /* SpacerDivisorSpacerView.swift in Sources */,
+				9B5AF3D52A9C783600B1FE7E /* TimerView.swift in Sources */,
+				9B74D0082A8806EB00983582 /* ButtonModifier.swift in Sources */,
+				9B5AF3D12A9B2D6700B1FE7E /* ButtonAdder.swift in Sources */,
+				9BDB7FFA2A8A061A00B2E8B4 /* NatureView.swift in Sources */,
+				9B74CFFB2A87508E00983582 /* MoneyModifierView.swift in Sources */,
+				9B74CFEA2A86251100983582 /* Keyboard.swift in Sources */,
+				9BA37DFD2A86240400BCE938 /* WaterModifierView.swift in Sources */,
+				9B5AF3D72A9C8C7000B1FE7E /* ThinkIdeasView.swift in Sources */,
+				9B74D0112A88133500983582 /* FruitVegModifierView.swift in Sources */,
+				9B74D0062A87FAC800983582 /* DataModifier.swift in Sources */,
+				9BDB800E2A8A06C800B2E8B4 /* JobView.swift in Sources */,
+				9B74D01C2A88F46900983582 /* ActivityModifierView.swift in Sources */,
+				9B5AF3C72A9A9B0400B1FE7E /* formatterValues.swift in Sources */,
+				9BDB7FF22A8A01AF00B2E8B4 /* YogaModifierView.swift in Sources */,
+				9BDB7FF52A8A05DC00B2E8B4 /* ThinkView.swift in Sources */,
+				9B74CFEC2A86251900983582 /* ProgressBar.swift in Sources */,
+				9BDB7FF02A8A01A100B2E8B4 /* YogaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +619,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -391,6 +680,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -425,6 +715,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +745,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

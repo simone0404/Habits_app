@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "989BC5E4-65DB-498D-8DB7-64FFE08D54CE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Habit/View/MoneyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "MoneyView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 3bf49127d49c221b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Habit.MoneyView.endDateString : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 35e5c5f9b138e631"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.getter : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - d7aa7e4ebff1f62d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.setter : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 1830b159df210a32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.modify : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 51155eed5b79e42d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 83df95216ed3c55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.$endDateString.getter : SwiftUI.Binding&lt;Swift.String&gt;"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 3bf49127d49c22fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Habit.MoneyView.endDateString : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 35e5c5f9b138e6d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.getter : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - d7aa7e4ebff1f6cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.setter : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 1830b159df210ad3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.modify : Swift.String"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 51155eed5b79e4cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.endDateString.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "50160E26-086A-4DE4-BFDF-4ABB0D924CB9 - 83df95216ed3cb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habit.MoneyView.$endDateString.getter : SwiftUI.Binding&lt;Swift.String&gt;"
+                  moduleName = "Habit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simoneroldo/Desktop/Habit/Habit/View/MoneyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
