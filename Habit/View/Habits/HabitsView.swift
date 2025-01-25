@@ -131,56 +131,6 @@ struct HabitsView: View {
                     }
                     .foregroundColor(.brown)
                 }
-                    /*.navigationBarTitleDisplayMode(.inline)
-                    .toolbarTitle("Habits")
-                    .toolbar {
-                        ToolbarItem(placement: .navigationBarTrailing) {
-                            Button(action: {
-                                dailyWaterDone = 0
-                                waterReached = 0.0
-                                dailyFruitVegDone = 0
-                                fruitVegReached = 0.0
-                                dailyActivityDone = 0.0
-                                gymMinutes = 0.0
-                                walkMinutes = 0.0
-                                runMinutes = 0.0
-                                swimMinutes = 0.0
-                                moneyEarnedToday = 0.0
-                                dailyYogaDone = false
-                                dailyThinkDone = false
-                                dailyNatureDone = false
-                                dailySleepDone = false
-                                dailyStudyDone = 0
-                                dailyJobDone = 0
-                                washCounter += 1
-                                teeth = 0
-                                shower = false
-                                thingsWashed = 0
-                                if washCounter % 2 == 0 {
-                                    hair = false
-                                } else {
-                                    thingsWashed += 1
-                                }
-                                if washCounter % 3 == 0 {
-                                    beard = false
-                                } else {
-                                    thingsWashed += 1
-                                }
-                                if (washCounter+1) % 3 == 0 {
-                                    nails = false
-                                } else {
-                                    thingsWashed += 1
-                                }
-                                if (washCounter+2) % 3 == 0 {
-                                    airbrows = false
-                                } else {
-                                    thingsWashed += 1
-                                }
-                            }){
-                                Image(systemName: "clock")
-                            }
-                        }
-                    }*/
                 
             }
             .background(

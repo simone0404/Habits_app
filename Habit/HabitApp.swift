@@ -7,7 +7,7 @@ import SwiftUI
 struct HabitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView()   // initial view displayed at launch
             }
         }
     }

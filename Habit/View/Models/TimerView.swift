@@ -1,4 +1,4 @@
-import SwiftUI
+/* import SwiftUI
 
 struct YogaTimerView: View {
     @AppStorage("hourTimers") var hourTimers: Int = 0
@@ -184,5 +184,175 @@ struct StudyTimerView: View {
                 
             }
         }
+    }
+}
+*/
+
+import SwiftUI
+import Combine
+
+class TimerManager: ObservableObject {
+    @Published var timeElapsed: TimeInterval = 0
+    @Published var isRunning: Bool = false
+    private var startTime: Date?
+    private var timerSubscription: AnyCancellable?
+
+    func startTimer() {
+        startTime = Date()
+        isRunning = true
+        timerSubscription = Timer.publish(every: 1, on: .main, in: .common)
+            .autoconnect()
+            .sink { [weak self] _ in
+                guard let self = self, let start = self.startTime else { return }
+                self.timeElapsed = Date().timeIntervalSince(start)
+            }
+    }
+
+    func stopTimer() {
+        isRunning = false
+        timerSubscription?.cancel()
+        timerSubscription = nil
+    }
+
+    func resetTimer() {
+        stopTimer()
+        timeElapsed = 0
+        startTime = nil
+    }
+}
+
+struct YogaTimerView: View {
+    @StateObject private var timerManager = TimerManager()
+    @Binding var dailyYogaDone: Bool
+    @Binding var moneyEarned: Double
+    @Binding var moneyEarnedToday: Double
+    @Binding var moneyEarnedByYoga: Double
+
+    var numberOfMinutes: Int
+    var name: String
+    var color: Color
+
+    @State private var blinkColor: Color = .black
+
+    var body: some View {
+        let (hours, minutes, seconds) = secondsToHoursMinutesSeconds(Int(timerManager.timeElapsed))
+
+        HStack {
+            Text(name)
+                .bold()
+                .foregroundColor(blinkColor)
+            Spacer()
+            Text(String(format: "%02d:%02d:%02d", hours, minutes, seconds))
+                .fontWeight(timerManager.isRunning ? .bold : .regular)
+            if !timerManager.isRunning {
+                Button(action: startYoga) {
+                    Image(systemName: "play.circle.fill")
+                        .foregroundColor(.green)
+                }
+                .buttonStyle(.borderless)
+            }
+            if timerManager.isRunning {
+                Button(action: stopYoga) {
+                    Image(systemName: "stop.circle.fill")
+                        .foregroundColor(.red)
+                }
+                .buttonStyle(.borderless)
+                Button(action: timerManager.resetTimer) {
+                    Image(systemName: "trash.circle.fill")
+                        .foregroundColor(.orange)
+                }
+                .buttonStyle(.borderless)
+            }
+        }
+    }
+
+    private func startYoga() {
+        timerManager.startTimer()
+        blinkColor = color
+    }
+
+    private func stopYoga() {
+        if Int(timerManager.timeElapsed / 60) >= numberOfMinutes {
+            dailyYogaDone = true
+            moneyEarned += moneyEarnedByYoga
+            moneyEarnedToday += moneyEarnedByYoga
+        }
+        blinkColor = .green
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            blinkColor = .black
+        }
+        timerManager.resetTimer()
+    }
+
+    private func secondsToHoursMinutesSeconds(_ seconds: Int) -> (Int, Int, Int) {
+        return (seconds / 3600, (seconds % 3600) / 60, seconds % 60)
+    }
+}
+
+struct StudyTimerView: View {
+    @StateObject private var timerManager = TimerManager()
+    @Binding var dailyStudyDone: Int
+    @Binding var moneyEarned: Double
+    @Binding var moneyEarnedToday: Double
+    @Binding var moneyEarnedByStudy: Double
+
+    var name: String
+    var color: Color
+
+    @State private var blinkColor: Color = .black
+
+    var body: some View {
+        let (hours, minutes, seconds) = secondsToHoursMinutesSeconds(Int(timerManager.timeElapsed))
+
+        HStack {
+            Text(name)
+                .bold()
+                .foregroundColor(blinkColor)
+            Spacer()
+            Text(String(format: "%02d:%02d:%02d", hours, minutes, seconds))
+                .fontWeight(timerManager.isRunning ? .bold : .regular)
+            if !timerManager.isRunning {
+                Button(action: startStudy) {
+                    Image(systemName: "play.circle.fill")
+                        .foregroundColor(.green)
+                }
+                .buttonStyle(.borderless)
+            }
+            if timerManager.isRunning {
+                Button(action: stopStudy) {
+                    Image(systemName: "stop.circle.fill")
+                        .foregroundColor(.red)
+                }
+                .buttonStyle(.borderless)
+                Button(action: timerManager.resetTimer) {
+                    Image(systemName: "trash.circle.fill")
+                        .foregroundColor(.orange)
+                }
+                .buttonStyle(.borderless)
+            }
+        }
+    }
+
+    private func startStudy() {
+        timerManager.startTimer()
+        blinkColor = color
+    }
+
+    private func stopStudy() {
+        let minutesStudied = Int(timerManager.timeElapsed / 60)
+        dailyStudyDone += minutesStudied
+        let earned = Double(minutesStudied) * moneyEarnedByStudy / 60
+        moneyEarnedToday += earned
+        moneyEarned += earned
+
+        blinkColor = .green
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            blinkColor = .black
+        }
+        timerManager.resetTimer()
+    }
+
+    private func secondsToHoursMinutesSeconds(_ seconds: Int) -> (Int, Int, Int) {
+        return (seconds / 3600, (seconds % 3600) / 60, seconds % 60)
     }
 }
