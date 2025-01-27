@@ -1,4 +1,3 @@
-
 # Habit Tracker and Savings Goal App
 
 ## Overview
@@ -16,13 +15,24 @@ The Habit Tracker and Savings Goal app is designed to encourage consistency in b
 ---
 
 ## Core Components
+
 ### Habit Management
 - **Habits View**: Displays a summary of all tracked habits, including nature-related habits, sleep, and study.
+
+![Main Habits View](./Images/MainView.PNG)
+
 - **Modifier Views**: Customize each habit's goals and parameters (e.g., durations, counts, or thresholds).
+
+![Modifier View](./Images/ModifierView.PNG)
 
 ### Activity Tracking
 - **Activity View**: Monitor activities such as gym, running, swimming, and walking, and set their specific goals.
 - **Activity Timer View**: Integrate timers for time-based activity tracking.
+
+### Financial Tracking
+- **Money View**: Displays financial goals and tracks progress towards them.
+
+![Money View](./Images/MoneyView.PNG)
 
 ### Personal Metrics
 - **Settings View**: Adjust personal metrics such as weight and height to tailor the app's recommendations and tracking features.
